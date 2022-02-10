@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -0%;
+    padding-bottom: 50%;
+    background-image: url(imagens/Fotopredios-1600x1060.jpg);
+    min-height: 100%;
+}
+
+/*h1*/
+#titulo{
+    text-align: center;
+    color: #e4f120;
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+    font-size: 450%;
+    margin-top: 10%;
+    text-shadow: 5px 10px #313c3d;
+    background-color:#4400ff38;
+    box-shadow: 0px 15px #63d5e4;
+}
+span[class="Brasil"] {
+   font-size: 120%;
+}
+
+/*barra de navegação*/
+.navegacao{
+    font-size: 150%;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    float: left;
+    background-color: #64dded;
+    box-shadow: 5px 10px #e4f120;
+}/*corpo menu de navegação*/
+
+.navegacao li{
+    list-style: none;
+    position: relative;
+    float: left;
+}/*menu de navegação lista principal*/
+
+.navegacao li a {
+    color: #4400ff;
+    text-decoration-line: none;
+    padding: 5px 15px;
+    display: block;
+}/*links da lista principal*/
+
+.navegacao li a:hover {
+    background: #4400ff;
+    color: #e4f120;
+    text-shadow: 0px 0px 5px black;
+}/*mudança de estilo da lista principal*/
+
+ ul #porcidade, ul #porregiao, ul #porregiao .norte, ul #porregiao .nordeste{
+    text-align: left;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 200%;
+    background-color:cornflowerblue;
+    display: none;/*faz com que suma enquanto nao selecionado*/
+    opacity: 0.80;
+}
+
+ul li:hover #porcidade, ul li.over, ul li:hover #porregiao, ul li .norte, ul li .nordeste{
+    display: block;
+}/*faz com que apareça quando selecionado*/
+
+/*fim barra de navegação*/
+
+/*inicio slider*/
+.slider{
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 280px;
+    position: relative;
+}
+
+.slider li{
+    list-style: none;
+}
+
+.slider img{
+    background-color: #e3f12096;
+    padding: 0px 230px;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    vertical-align: top;
+    position: absolute;
+}
+
+.slider input{
+    display: none;
+}
+.slider label{
+    background-color: whitesmoke;
+    bottom:  130px;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 110px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label{
+    left: 10px;
+}
+
+.slider li:nth-child(2) label{
+    left: 10px;
+}
+
+.slider li:nth-child(3) label{
+    left: 10px;
+}
+
+.slider img{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+/*Fim slider*/
+
+
+.capitais{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 240%;
+    padding: 40%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.capitais ul {
+    list-style: none;
+    color: ivory;
+    margin-top: 20%;
+}
+ ul #nordeste{
+     background-color: lawngreen;
+ }
+
+
+/*    background-color: rgb(36, 51, 59);*/

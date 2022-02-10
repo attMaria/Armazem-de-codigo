@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitais do Brasil</title>
+    <link rel="stylesheet" href="style.css"><!--ctrl + O-->
+</head>
+<body>
+    <h1 id="titulo">Capitais do Norte e Nordeste do <span class="Brasil">Brasil</span></h1>
+    <nav class="navegacao" id="navegacao">
+        <ul>
+            <!--Navegação por cidade-->
+            <li><a href="#capitais">Por cidade</a>
+                <ul id="porcidade">
+                    <li><a href="#Acre">Rio Branco,Acre</a></li>
+                    <li><a href="#Amapa">Macapá, Amapá</a></li>
+                    <li><a href="#Amazonas">Manaus, Amazonas</a></li>
+                    <li><a href="#Pará">Belém, Pará</a></li>
+                    <li><a href="#Rondônia">Porto Velho, Rondônia</a></li>
+                    <li><a href="#Roraima">Boa vista, Roraima</a></li>
+                    <li><a href="#Tocantins">Palmas, Tocantins</a></li>
+                    <!--nordeste-->
+                    <li><a href="#Alagoas" >Maceiô, Alagoas</a></li>
+                     <li><a href="#Bahia" >Salvador, Bahia</a></li>
+                    <li><a href="#Ceara">Fortaleza, Ceará</a></li>
+                    <li><a href="#Maranhao">São Luís, Maranhão</a></li>
+                    <li><a href="#Paraiba">João Pessoa, Paraíba</a></li>
+                    <li><a href="#Pernambuco">Recife, Pernambuco</a></li>
+                    <li><a href="#Piaui">Teresina, Piauí</a></li>
+                    <li><a href="#RNorte">Natal, Rio Grande do Norte</a></li>
+                    <li><a href="#Sergipe">Aracaju, Sergipe</a></li>
+
+                </ul>
+            </li>
+            <!--Navegação por regiao-->
+            <li><a href="#capitais">Por região</a>
+                <ul id="porregiao">
+
+                    <li><a href=".norte/#Acre">Norte</a></li>
+                    <li><a href=".nordeste/#Alagoas">Nordeste</a></li>
+                </ul>
+            </li>
+            <!--Parte do mapinha-->
+                <li><a href="#mapa">Mapa</a></li>
+                <!--Direciona para pagina de referencias-->
+                <li><a href="referencias.html">Referências</a></li>
+            </ul>
+        </nav> <br>
+<!--Fim menu de navegação-->
+
+        <div class="slider">
+            <ul class="slider">
+                <li>
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <label for="slide1"></label>
+                    <img src="imagens/dunas-1200X800.jpg" alt="Dunas de areia contra ceu azul">
+                </li>
+                <li>
+                    <input type="radio" id="slide2" name="slide" checked>
+                    <label for="slide2"></label>
+                    <img src="imagens/praia-1200x800.jpg" alt="praia ao longe com vegeta~ção verde">
+                </li>
+                <li>
+                    <input type="radio" id="slide3" name="slide" checked>
+                    <label for="slide3"></label>
+                    <img src="imagens/barcos-1200X800.jpg" alt="barcos na agua, amontoados">
+                </li>
+            </ul>
+        </div>
+
+
+    <div class="capitais"><!--Dividir por norte e nordeste-->
+        <ul class="nordeste" id="nordeste">
+            <li id="Alagoas">Maceiô, Alagoas</li>
+            <li id="Bahia">Salvador, Bahia</li>
+            <li id="Ceara">Fortaleza, Ceará</li>
+            <li id="Maranhao">São Luís, Maranhão</li>
+            <li id="Paraiba">João Pessoa, Paraíba</li>
+            <li id="Pernambuco">Recife, Pernambuco</li>
+            <li id="Piaui">Teresina, Piauí</li>
+            <li id="RNorte">Natal, Rio Grande do Norte</li>
+            <li id="Sergipe">Aracaju, Sergipe</li>
+
+        </ul>
+
+        <ul class="norte" id="norte">
+            <li id="Acre">Rio Branco,Acre</li>
+            <li id="Amapa">Macapá, Amapá</li>
+            <li id="Amazonas">Manaus, Amazonas</li>
+            <li id="Pará">Belém, Pará</li>
+            <li id="Rondonia">Porto Velho, Rondônia</li>
+            <li id="Roraima">Boa vista, Roraima</li>
+            <li id="Tocantins">Palmas, Tocantins</li>
+        </ul>
+
+    </div>
+
+    <!--<div id="alturas">aqui vai conter o grafico</div>
+
+    <div id="mapa">aqui vai ter o mapa pinado</div>
+    -->
+</body>
+</html>

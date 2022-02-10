@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fotos em Preto & Branco</title>
+</head>
+<body>
+
+    <h1>Fotos em Preto e branco</h1>
+
+    <nav class="navegacao" id="navegacao">
+        <ul>
+
+            <li><a href=".slider">Fotos</a>
+                <ul id="navfoto">
+
+                    <li><a href="#zebra">Foto Zebra</a></li>
+
+                    <li><a href="#predios">Foto Predios</a></li>
+
+                    <li><a href="#senhor">Foto Senhor e menino</a></li>
+
+                    <li><a href="#noite">Foto prédios a noite</a></li>
+
+                </ul>
+            </li>
+
+            <li><a href="#paragrafo">Paragrafo</a></li>
+
+            <li><a href="#fim">Fim da página</a></li>
+
+        </ul>
+    </nav>
+
+    <aside>
+        <p>Fotos <abbr title="Preto e branco">p&b!</abbr></p>
+    </aside>
+
+    <main>
+        <section>
+            <ul class="slider" id="slider">
+                <li id="zebra">
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <label for="slide1"></label>
+                    <img src="imagens/zebra-750x500.jpg" alt="Zebra">
+                </li>
+                <li id="predios">
+                    <input type="radio" id="slide2" name="slide" checked>
+                    <label for="slide2"></label>
+                    <img src="imagens/predios 750X500.jpg" alt="predios">
+                </li>
+                <li id="senhor">
+                    <input type="radio" id="slide3" name="slide" checked>
+                    <label for="slide3"></label>
+                    <img src="imagens/Senhoremenino-750X500.jpg" alt="Senhor e menino de costas">
+                </li>
+                <li id="noite">
+                    <input type="radio" id="slide4" name="slide" checked>
+                    <label for="slide4"></label>
+                    <img src="imagens/prediosanoite-750X500.jpg" alt="predios a noite">
+                </li>
+            </ul>
+        </section><!--tentar mudar o id do input para o id do list, se o css não funcionar-->
+
+        <hr>
+
+        <article id="paragrafo">
+            <h2>Paragrafo</h2>
+            <p><i>Lorem ipsum dolor</i> sit amet consectetur adipisicing elit. Amet, dignissimos alias. Aliquid ratione culpa sed mollitia aspernatur iste est deserunt quia! Alias a eum illum accusamus expedita iusto obcaecati at!. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae odit repellat voluptates aperiam, animi minima vel perferendis, aut culpa fuga quis necessitatibus illum nihil reiciendis distinctio consequuntur numquam ut.<br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur molestiae doloribus deserunt ab amet incidunt quis sequi in minus tempora, commodi delectus, praesentium ducimus, illo quibusdam atque veritatis quasi voluptate. </p>
+        </article>
+
+        <hr>
+
+    </main>
+
+</body>
+
+<footer class="fim" id="fim">
+    <p> &lt; Este é o fim da página! &gt;</p>
+</footer>
+
+</html>

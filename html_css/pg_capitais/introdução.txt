@@ -1,0 +1,22 @@
+#Site capitais do norte e nordeste do Brasil 
+ 	O intuito é criar um site responsivo , com fotos em slider;
+	cada foto estará linkado as seguintes informações:
+		*Nome da capital;
+		*Imagem ilustrativa
+	Tentarei incluir um mapa do Brasil;
+	 pinado e com as seguintes informações:
+		*Nome da cidade
+		*Localização
+	O site será dividido em :
+		*Cabeçalho:
+			*Botão para ir para cidade escolhida
+			*Botao de ir para a regiao escolhida, sendo a primeira cidade da regiao,em ordem 
+			  alfabetica a aparecer
+			*Link para para a pagina de referancias
+		*Corpo:
+			*Divs por regiao
+				*p por cidade
+		*Footer:
+			*Link para o repositório
+			*Ano de criação
+	Também será contemplado as medidas de SEO e acessibilidade
